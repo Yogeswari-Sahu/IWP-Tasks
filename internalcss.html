@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Document with Internal CSS Implementation</title>
+    <style>
+        .row {
+        display: flex;
+        }
+
+        .column {
+        flex: 50%;
+        }
+
+        #col1{
+            background-color: lightgray;
+        }
+
+        #col2{
+            background-color: lightgreen;
+        }
+
+        ul{
+            list-style-type:none
+        }
+
+        #veges{
+            background-color: lightgreen;
+        }
+        #meat{
+            background-color: red;
+        }
+        #dairy{
+            background-color: lightyellow;
+        }
+        h3{
+            font-style: italic;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: larger;
+            
+        }
+        li{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+            border-color:mediumblue;
+            padding: 5px;
+            margin: 15px;
+            border-width: medium;
+            border-radius: 5px;
+        }
+        h5{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        h1{
+            font-family: Verdana, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grilled Cheese Sandwiches with Bacon and Tomato (18BCE0928) -YOGESWARI SAHU</h1>
+    <h3>Internal CSS</h3>
+    <div class="row">
+        <div class="column" id="col1">
+            <h3>Ingredients</h3>
+            <ul>
+                <li id="meat">4  Slices Cooked Bacon</li>
+                <li id="dairy">5  Tablespoons soft Butter, Divided (or to taste)</li>
+                <li id="dairy">4  Slices bread (white or whole wheat)</li>
+                <li id="dairy">4  Slices Monterey Jack pepper cheese (or use American cheese) </li>
+                <li id="veges"> 4 Slices Tomatoes </li>               
+            </ul>
+
+        </div>
+        <div class="column" id="col2">
+            <h3>Instructions</h3>
+            <h5>
+                1) Spread about 1 tablespoon butter into the bottom of a large skillet 
+                (or just leave some fat in the pan from the bacon).
+            </h5>
+            <h5>2) Spread 1 tablespoon (can use more) onto one side of each slice of bread.</h5>
+            <h5>3) Place the 4 slices of bread butter-side down onto a large skillet or flat grill.</h5>
+            <h5>4) Top with 1 slice of cheese, 2 slices of tomato and 2 slices cooked bacon, then 1 more slice of cheese.</h5>
+            <h5>5) Cover with a slice of bread (butter-side facing outside).</h5>
+            <h5>6) Fry over medium turning once with a spatula until golden brown on both sides.</h5>
+
+        </div>
+    </div>
+</body>
+</html>

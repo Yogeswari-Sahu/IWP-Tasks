@@ -1,0 +1,52 @@
+
+.row {
+display: flex;
+}
+
+.column {
+flex: 50%;
+}
+
+#col1{
+    background-color: lightgray;
+}
+
+#col2{
+    background-color: lightgreen;
+}
+
+ul{
+    list-style-type:none
+}
+
+#veges{
+    background-color: lightgreen;
+}
+#meat{
+    background-color: red;
+}
+#dairy{
+    background-color: lightyellow;
+}
+h3{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    border-color:mediumblue;
+    padding: 5px;
+    margin: 15px;
+    border-width: medium;
+    border-radius: 5px;
+}
+h5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1{
+    font-family: Verdana, Helvetica, sans-serif;
+}
